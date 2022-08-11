@@ -5,7 +5,7 @@
 }
 
 .shaking{
-    animation: slide 0.7s;
+    animation: slide 1s;
 }
 
 @keyframes slide{

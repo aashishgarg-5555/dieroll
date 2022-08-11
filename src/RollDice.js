@@ -1,6 +1,8 @@
 import React , {useState} from 'react'
 import Die from './Die'
 import "./RollDice.css"
+import { Howl } from 'howler';
+//http://cd.textfiles.com/itcontinues/WIN/YTB22/RATTLE2.WAV
 function RollDice({sides}) {
 
     const [state,setState] = useState({
@@ -23,9 +25,14 @@ function RollDice({sides}) {
             rolling: true,
             totalScore: score1[0]+score2[0],
         })
+        const sound = new Howl ({
+            src: ["http://cd.textfiles.com/itcontinues/WIN/YTB22/RATTLE2.WAV"],
+            html5: true,
+        });
+        sound.play();
         setTimeout(() => {
             setState((prevState) => ({...prevState, rolling:false}))
-        },700)
+        },1000)
     }
     
   return (
