@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dieroll/static/css/main.7a5ac836.css",
-    "main.js": "/dieroll/static/js/main.23c51425.js",
+    "main.css": "/dieroll/static/css/main.e99347fc.css",
+    "main.js": "/dieroll/static/js/main.d6e8eff5.js",
     "static/js/787.2c1ebc41.chunk.js": "/dieroll/static/js/787.2c1ebc41.chunk.js",
     "index.html": "/dieroll/index.html",
-    "main.7a5ac836.css.map": "/dieroll/static/css/main.7a5ac836.css.map",
-    "main.23c51425.js.map": "/dieroll/static/js/main.23c51425.js.map",
+    "main.e99347fc.css.map": "/dieroll/static/css/main.e99347fc.css.map",
+    "main.d6e8eff5.js.map": "/dieroll/static/js/main.d6e8eff5.js.map",
     "787.2c1ebc41.chunk.js.map": "/dieroll/static/js/787.2c1ebc41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a5ac836.css",
-    "static/js/main.23c51425.js"
+    "static/css/main.e99347fc.css",
+    "static/js/main.d6e8eff5.js"
   ]
 }
